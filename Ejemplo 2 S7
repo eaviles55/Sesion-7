@@ -13,7 +13,7 @@
 # Primero debemos establecer nuestro directorio de trabajo y el archivo
 # de datos (nyc.csv) que importaremos a R deberá de estar en este directorio
 
-nyc <- read.csv("nyc.csv", header = TRUE)
+nyc <- read.csv("https://raw.githubusercontent.com/beduExpert/Programacion-con-R-Santander/master/Sesion-05/Ejemplo-02/nyc.csv", header = TRUE)
 
 # Observamos algunas filas y la dimensión del data frame
 
